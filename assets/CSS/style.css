@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+main {
+    background-color: rgba(255, 255, 255, 0.633);
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    margin: 50px 550px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+h1 {
+text-align: center;
+margin-top: 50px;
+}
+
+#search {
+    background-color: #4cffd1;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.item {
+    margin: 10px 18px;
+    padding: 10px 10px;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+}
+
+.grafica {
+    width: 70%;
+    margin-bottom: 20px;
+   
+}
+
+input[type=number] { -moz-appearance:textfield;}
